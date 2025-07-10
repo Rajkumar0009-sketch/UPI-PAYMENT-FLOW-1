@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-payment-gateway-api",
+  "version": "1.0.0",
+  "description": "Simplified UPI/Card Payment Gateway API with fraud checks, OTP flow, and transaction logs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "jsonwebtoken": "^9.0.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.22"
+  }
+}
